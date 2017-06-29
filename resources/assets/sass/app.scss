@@ -2,6 +2,7 @@
 
 // Warpaint
 @import '_warpaint/warpaint';
+
 $pink: #c61870;
 $truce: #FFF;
 html, body {
@@ -17,34 +18,33 @@ html, body {
 }
 .btn{
   text-align: center;
-
   border: 1px dashed $truce;
-background-color: $pink;
-color: $truce;
-font-size: 0.8rem;
-line-height: 3;
-text-decoration: none;
-transition: all 0.3s ease-in-out;
-cursor: pointer;
-&:hover{
-  border: 1px dashed $truce;
-background-color: $truce;
-color: $pink;
-}
+  background-color: $pink;
+  color: $truce;
+  font-size: 0.8rem;
+  line-height: 3;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover{
+    border: 1px dashed $truce;
+  background-color: $truce;
+  color: $pink;
+  }
 }
 .flag-left{
   position: absolute;
-top: 0;
-left: 0;
-width: 20vw;
-max-width: 485px;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  max-width: 485px;
 }
 .flag-right{
   position: absolute;
-top: 0;
-right: 0;
-width: 20vw;
-max-width: 485px;
+  top: 0;
+  right: 0;
+  width: 20vw;
+  max-width: 485px;
 }
 main{
   position: relative;
